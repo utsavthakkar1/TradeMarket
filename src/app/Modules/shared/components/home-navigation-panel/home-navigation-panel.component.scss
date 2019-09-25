@@ -1,0 +1,41 @@
+mat-toolbar {
+        width: 80%;
+        margin: auto;
+        display: flex;
+
+    .logIn-signUp {
+            padding-left: 500px;
+    }
+
+    .content-space, .signup{
+        padding: 20px;
+    }
+
+    .logIn {
+        padding: 20px 20px;
+        background: transparent;
+        border: black;
+        color: black;
+        font-family: 500 20px/32px Roboto,"Helvetica Neue",sans-serif;
+        box-shadow: 0%;
+    }
+
+    .signUp {
+        padding: 10px 20px;
+        background-color: #21ce99;
+        border: white;
+        border-radius: 12%;
+        font-family: 500 20px/32px Roboto,"Helvetica Neue",sans-serif;
+    }
+
+    /* Hover Link */
+    a:hover, button:hover {
+        color: blue;
+    }
+    
+    /* selected link */
+    a:active, button:active {
+        color: blue;
+    }
+    
+}
